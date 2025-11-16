@@ -23,11 +23,7 @@ A voice-powered AI assistant built with [LiveKit Agents](https://docs.livekit.io
 
 ## Installation
 
-1. **Clone or navigate to the project directory:**
-
-```bash
-cd voice_agents/personal_assistant
-```
+1. **Ensure you're in the project directory** (where `agent.py` and `requirements.txt` are located)
 
 2. **Create and activate a virtual environment:**
 
@@ -54,7 +50,7 @@ This downloads the necessary models for VAD, turn detection, and noise cancellat
 
 ### Environment Variables
 
-Create a `.env` file in the `personal_assistant` directory with the following variables:
+Create a `.env` file in this directory with the following variables:
 
 ```bash
 # LiveKit Cloud credentials (required)
@@ -202,7 +198,7 @@ After deployment, your agent will be available in the [Agents Playground](https:
 ## Project Structure
 
 ```
-personal_assistant/
+.
 ├── agent.py              # Main agent implementation
 ├── prompt.py             # Agent personality and instructions
 ├── requirements.txt      # Python dependencies
@@ -249,5 +245,5 @@ python agent.py download-files
 
 ## License
 
-See the main project LICENSE file for license information.
+See the LICENSE file in the project root for license information.
 
